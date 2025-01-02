@@ -1,0 +1,19 @@
+[book]
+authors = ["gibbz"]
+language = "en"
+multilingual = false
+src = "book"
+title = "bedy Documentation"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "target/book"
+
+[output.html]
+cname = "TEMP"
+curly-quotes = true
+edit-url-template = "https://github.com/gibbz00/bedy/edit/main/{path}"
+git-repository-url = "https://github.com/gibbz00/bedy"
+preferred-dark-theme = "navy"
