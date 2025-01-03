@@ -9,13 +9,19 @@ readme.workspace = true
 repository.workspace = true
 version.workspace = true
 
+[lints]
+workspace = true
+
+[features]
+client = ["dep:bedy-client"]
+server = ["dep:bedy-server"]
+
 [dependencies]
 # Project
+bedy-client = { workspace = true, optional = true }
 bedy-common.workspace = true
+bedy-server = { workspace = true, optional = true }
 
 # External
 derive-getters.workspace = true
 futures.workspace = true
-
-[lints]
-workspace = true

@@ -13,11 +13,14 @@ version = "0.1.0"
 
 [workspace.dependencies]
 # Project
+bedy-client = { path = "crates/client" }
 bedy-common = { path = "crates/common" }
+bedy-server = { path = "crates/server" }
 
 # External
 derive-getters = "0.5"
 futures = { version = "0.3", default-features = false }
+impl-tools = "0.10"
 uuid = "1"
 
 [workspace.lints.rust]

@@ -1,5 +1,5 @@
 [package]
-name = "bedy-common"
+name = "bedy-server"
 
 authors.workspace = true
 edition.workspace = true
@@ -13,5 +13,4 @@ version.workspace = true
 workspace = true
 
 [dependencies]
-impl-tools.workspace = true
-uuid.workspace = true
+bedy-common.workspace = true
