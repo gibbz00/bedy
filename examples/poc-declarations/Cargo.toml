@@ -1,5 +1,5 @@
 [package]
-name = "bedy-common"
+name = "bedy-poc-declarations"
 
 authors.workspace = true
 edition.workspace = true
@@ -9,8 +9,13 @@ readme.workspace = true
 repository.workspace = true
 version.workspace = true
 
+[dependencies]
+# Project
+bedy-common.workspace = true
+
+# External
+derive-getters.workspace = true
+futures.workspace = true
+
 [lints]
 workspace = true
-
-[dependencies]
-uuid.workspace = true
